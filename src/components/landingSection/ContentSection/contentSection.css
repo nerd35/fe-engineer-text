@@ -297,7 +297,50 @@ color: #B63A3A;
 margin-left: 5px;
 }
 
+@media only screen and (max-width: 1300px) {
+    .left{
+        width: 100% !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .left-top-card{
+        width: 50% !important;
+        margin-top: -120px !important;
+        padding: 40px;
+    }
+    .module-content{
+        width: 50% !important;
+    }
+    .right{
+        width: 100% !important;
+        align-items: center;
+    }
+    .table-container-column-3{
+        display: none !important;
+    }
+    .table-container-body-column-3{display: none !important;}
+}
+
 @media only screen and (max-width: 600px) {
+    .left{
+        width: 100% !important;
+        display: block !important;
+        flex-direction: row;
+        align-items: center;
+    }
+    .left-top-card{
+        width: 100% !important;
+        margin-top: 0px !important;
+        padding-top: 20px !important;
+        padding-left: 0px !important;
+        
+        padding-bottom: 20px !important;
+        padding-right: 0px !important;
+    }
+    .module-content{
+        width: 100% !important;
+    }
     .table-container-column-1{
         flex: 28.33% !important;
     }
@@ -361,7 +404,7 @@ margin-left: 5px;
 }
 
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
       .left{
           width: 100% !important;
           margin-right: 0px !important;
