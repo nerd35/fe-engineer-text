@@ -12,7 +12,7 @@ export default function HomeContent() {
                     Divisions 
                 </div>
                 <div className="path-icon">
-                    <img src={Path} alth="path"/>  
+                    <img src={Path} alt="path"/>  
                 </div>
                 <div className="path-text">
                     Module 
