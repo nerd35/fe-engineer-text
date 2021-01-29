@@ -12,9 +12,7 @@
     width: 79%;
     box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
     margin-bottom: 30px;
-    overflow-x: visible;
-    overflow-y: hidden;
-    white-space: nowrap;
+    
   }
   
   /* Clear floats after the columns */
@@ -298,6 +296,71 @@ line-height: 18px;
 color: #B63A3A;
 margin-left: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .table-container-column-1{
+        flex: 28.33% !important;
+    }
+    .table-container-column-2{
+        flex: 38.33% !important;
+    }
+    .table-container-column-3{
+        display: none !important;
+    }
+    .table-container-column-4{
+        flex: 33.33% !important;
+    }
+    .table-container-column-5{
+        display: none !important;
+    }
+    .table-container-column-6{
+        display: none !important;
+    }
+    .table-container-column-7{
+        display: none !important;
+    }
+    .table-container-body-column-1{flex: 28.33% !important;}
+    .table-container-body-column-2{
+        flex: 38.33% !important; 
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #25213B;}
+    .table-container-body-column-3{display: none !important;}
+    .table-container-body-column-4{flex: 33.33% !important;}
+    .table-container-body-column-5{display: none !important;}
+    .table-container-body-column-6{display: none !important;}
+    .table-container-body-column-7{display: none !important;}
+    .No-issue{
+        background: #F6F3FF;
+        border-radius: 11px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 18px;
+        color: #8C70FF;
+        padding: 5px 8px !important;
+        text-align: right !important;
+        }
+        .has-issue{
+            
+        background: #FFF6DE;
+            border-radius: 11px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 8px;
+            line-height: 18px;
+            color: #F4B400;
+            padding: 5px 8px !important;
+            text-align: right !important;
+            }
+}
+
+
   @media only screen and (max-width: 768px) {
       .left{
           width: 100% !important;
