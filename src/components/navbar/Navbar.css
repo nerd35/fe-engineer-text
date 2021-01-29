@@ -1,0 +1,133 @@
+.Navbar {
+  background: #FFFFFF;
+  box-shadow: inset 0px -1px 0px rgba(220, 225, 231, 0.572143);
+    display: flex;
+    font-family: sans-serif;
+   
+  }
+  .logo-text{
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 12px;
+color: #000000;
+margin-left: 40px;
+margin-top: -10px;
+  }
+  .logo-brand{
+    position: absolute;
+width: 32px;
+height: 27.05px;
+margin-top: -20px;
+  }
+
+ 
+  .Navbar__Link {
+    padding-right: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+    padding: 20px 10px;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  .no-active-link{
+    font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #778699;
+padding: 20px 20px;
+  }
+  .Active-link{
+    background: #DEEFFF;
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+color: #006FD6;
+padding:20px 30px;
+border-bottom: 3px solid #006FD6;
+  }
+  .navlink-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+  }
+
+.search-div{
+  left: -120px !important;
+  padding: 0px 30px;
+}
+  input[type=search]{
+    
+    height: 36px;
+width: 176px;
+    background: #FFFFFF;
+border: 1px solid #DCE1E7;
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 40px;
+  }
+  .search-icon{
+    position:absolute;
+    margin-left: -165px;
+    margin-top: 10px;
+    color: #979797;;
+  }
+.user-div{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ciew-down{
+  margin-top: -40px;
+  padding-left: 20px;
+}
+  .user-pics{
+    width: 30px;
+  }
+  .notice-icon{
+    width: 30px;
+  }
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }

@@ -1,0 +1,21 @@
+.content-placeholder{
+    padding: 20px 20px;
+}
+.path-text{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #778699;
+padding-right: 10px;
+}
+.path-section{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+
+}
+.path-icon{
+    padding-right: 10px;
+}
