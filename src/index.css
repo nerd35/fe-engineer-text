@@ -1,8 +1,59 @@
+@font-face{
+  src: url('./assets/fonts/ProductSans-Black.ttf');
+  font-family: ProductSans-Black;
+}
+@font-face{
+  src: url('./assets/fonts/ProductSans-BlackItalic.ttf');
+  font-family: ProductSans-BlackItalic;
+}
+@font-face{
+  src: url('./assets/fonts/ProductSans-Bold.ttf');
+  font-family: ProductSans-Bold;
+}
+@font-face{
+  src: url('./assets/fonts/ProductSans-BoldItalic.ttf');
+  font-family: ProductSans-BoldItalic;
+}
+@font-face{
+  src: url('./assets/fonts/ProductSans-Italic.ttf');
+  font-family: ProductSans-Italic;
+}
+
+@font-face{
+  src: url('./assets/fonts/ProductSans-Light.ttf');
+  font-family: ProductSans-Light;
+}
+
+@font-face{
+  src: url('./assets/fonts/ProductSans-LightItalic.ttf');
+  font-family: ProductSans-LightItalic;
+}
+@font-face{
+  src: url('./assets/fonts/ProductSans-Medium.ttf');
+  font-family: ProductSans-Medium;
+}
+@font-face{
+  src: url('./assets/fonts/ProductSans-MediumItalic.ttf');
+  font-family: ProductSans-MediumItalic;
+}
+
+@font-face{
+  src: url('./assets/fonts/ProductSans-Regular.ttf');
+  font-family: ProductSans-Regular;
+}
+
+@font-face{
+  src: url('./assets/fonts/ProductSans-Thin.ttf');
+  font-family: ProductSans-Thin;
+}
+@font-face{
+  src: url('./assets/fonts/ProductSans-ThinItalic.ttf');
+  font-family: ProductSans-ThinItalic;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Google Sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
