@@ -4,7 +4,7 @@ import InfoIcon from '../../../assets/images/info-icon.png';
 
 export default function SummaryCards() {
     return (
-        <div className="summary-card-container">
+        <div className="summary-card-container scroll-bar-thin">
             <div>
                 <div className="summary-card">
                     <div className="">
